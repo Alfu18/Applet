@@ -32,7 +32,7 @@ public class Applet4 extends Applet
 		sum=sum+2;
 		if(c3.getState()==true)
 		sum=sum+3;
-		if(c4.getState()==true)
+		if(c4.getState()==true);
 		sum=sum+4;
 		t1.setText(String.valueOf(sum));
 		return true;			
