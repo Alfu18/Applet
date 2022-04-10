@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
-public class Applet2Part2 extends  Applet implements ActionListener{
+public class Applet2Part2 extends Applet implements ActionListener{
 	
 	Button b1,b2;
 	TextField t;
@@ -16,7 +16,7 @@ public class Applet2Part2 extends  Applet implements ActionListener{
 		add(t=new TextField (15));
 		add(b2=new Button("clear"));
 		b1.addActionListener(this);
-		//b2.addActionListener(this);
+		b2.addActionListener(this);
 	}
 	public void actionPerformed(ActionEvent arg0)
 	{

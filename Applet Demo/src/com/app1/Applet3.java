@@ -8,8 +8,8 @@ import java.awt.Event;
 import java.awt.TextField;
 import java.util.EventObject;
 
-public class Applet3 extends Applet 
-{
+public class Applet3 extends Applet {
+
      Label l;
      Button b;
      TextField t1,t2,t3;
